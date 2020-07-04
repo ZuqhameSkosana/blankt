@@ -7,7 +7,8 @@
     %ul.navbar-nav.mr-auto
       %li.nav-item.active
         %a.nav-link{:href => "#"}
-          Home
+          //Home
+          .fa.fa-home
           %span.sr-only (current)
       %li.nav-item
         %a.nav-link{:href => "#"} Link
@@ -28,3 +29,11 @@
 
 %h1 Home#index
 %p Find me in app/views/home/index.html.erb
+
+.fa.fa-flag
+.fab.fa-amazon
+
+
+= link_to root_path, class: 'btn btn-success' do
+  .fa.fa-home
+  Homepage
