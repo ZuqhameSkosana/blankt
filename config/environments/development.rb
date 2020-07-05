@@ -1,5 +1,6 @@
 Rails.application.configure do
   config.hosts << "2554399f101a4d3ebc92290ee2ecbbdc.vfs.cloud9.us-east-2.amazonaws.com"
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
